@@ -13,6 +13,10 @@ header{
 }
 
 
+i{
+    font-size: 20px;
+}
+
 /* Flex */
 .flex{
     display: flex;
@@ -37,4 +41,32 @@ header{
 
 .navigazione{
     height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px){
+
+    /* Selettori Generali */
+
+    
+
+    .conteiner{
+        width: 90%;
+        
+    }
+    
+
 }
