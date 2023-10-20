@@ -27,15 +27,18 @@ i{
     justify-content: space-between;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
 /* Conteiner */
 .conteiner{
     width: 80%;
     height: 100%;
     text-align: center;
     margin: auto;
-    background-color: lime;
+    /* background-color: lime; */
 }
-
 
 /* Tag Header */
 
@@ -43,8 +46,20 @@ i{
     height: 100%;
 }
 
+/* Jumbo */
 
+.card{
+    width: calc(100% / 3);
+    height: 300px;
+}
 
+.card-doppia{
+    width: calc((100% / 3)*2);
+}
+
+.card-blu{
+    background-color: #b5ddff;
+}
 
 
 
