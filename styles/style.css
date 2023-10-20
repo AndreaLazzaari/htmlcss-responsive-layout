@@ -31,6 +31,8 @@ i{
     flex-direction: column;
 }
 
+
+
 /* Conteiner */
 .conteiner{
     width: 80%;
@@ -51,10 +53,14 @@ i{
 .card{
     width: calc(100% / 3);
     height: 300px;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 15px;
 }
 
 .card-doppia{
     width: calc((100% / 3)*2);
+    margin-top: 3em;
 }
 
 .card-blu{
